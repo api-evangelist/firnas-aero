@@ -1,0 +1,21 @@
+{
+  "repo": "firnas-aero",
+  "feeds": [
+    {
+      "source": "https://firnas.aero/feed/",
+      "feed_url": "https://firnas.aero/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://firnas.aero",
+      "feed_url": "https://firnas.aero/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 4,
+  "fetched": "2026-07-25T15:00:33Z"
+}

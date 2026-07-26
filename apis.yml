@@ -1,7 +1,26 @@
 aid: firnas-aero
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/firnas-aero.png
 name: Firnas Aero
-description: Firnas Aero is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Firnas Aero is a Saudi Arabian deep-tech startup building autonomous Drone-in-a-Box (DiaB)
+  systems for aerial surveillance, industrial inspection, and environmental assessment. Its turnkey
+  platform pairs self-charging, robotic battery-swapping drone stations with cloud-based remote
+  management over 5G, Ethernet, or Wi-Fi, and applies machine-learning and deep-learning models for
+  anomaly detection, Foreign Object Debris (FOD) detection, hazard identification, and geo-location.
+  Based at KRTP HQ in Thuwal, Saudi Arabia, the company serves infrastructure, energy, and security
+  clients including Red Sea Global, NEOM, and the Saudi Electricity Company, and is backed by 500 Global.
+  It is tracked in the API Evangelist network as a company profile; no public developer API surface was
+  found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/firnas-aero/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Drones
+- UAV
+- Aerial Surveillance
+- Industrial Inspection
+- Machine Learning
+- Robotics
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/firnas-aero-domain-security.yml
 - type: Website
   url: https://firnas.aero
+- type: Blog
+  url: https://firnas.aero/blog/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/firnasaero/
+- type: Twitter
+  url: https://twitter.com/Firnas_aero_
+- type: Instagram
+  url: https://www.instagram.com/firnas_aero_
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
